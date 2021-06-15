@@ -46,4 +46,12 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
     Reprovados = 2
     Tops       = 0
 
-*ENTRADA 5*) Notas:
+*ENTRADA 5*) Notas: 90 91 92 93 94 95 96 97 98 99 100 -10
+
+*SAÍDA*
+
+    Num. notas = 11
+    Reprovados = 0
+    Tops       = 11
+    
+    
