@@ -20,7 +20,7 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 
     Num. notas = 0
     Reprovados = 0
-    Tops.      = 0
+    Tops       = 0
 
 *ENTRADA 2*) Notas: 60 70 80 90 100 -1
 
@@ -28,4 +28,22 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 
     Num. notas = 5
     Reprovados = 0
-    Tops.      = 2
+    Tops       = 2
+
+*ENTRADA 3*) Notas: 40 50 60 70 80 90 100 -5
+
+*SAÍDA*
+
+    Num. notas = 7
+    Reprovados = 2
+    Tops       = 2
+    
+*ENTRADA 4*) Notas: 40 50 60 -1
+
+*SAÍDA*
+
+    Num. notas = 3
+    Reprovados = 2
+    Tops       = 0
+
+*ENTRADA 5*) Notas:
