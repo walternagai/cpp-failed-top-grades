@@ -15,6 +15,7 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 ## Testes
 
 *ENTRADA 1*) Notas: -1
+
 *SAÍDA*
 
     Num. notas = 0
@@ -22,7 +23,9 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
     Tops.      = 0
 
 *ENTRADA 2*) Notas: 60 70 80 90 100 -1
+
 *SAÍDA*
+
     Num. notas = 5
     Reprovados = 0
     Tops.      = 2
