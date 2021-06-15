@@ -1,14 +1,10 @@
-# cpp-weekday-calculate-while
+# cpp-failed-top-grades
 
-Reescreva o programa main.cpp para várias datas válidas para calcular o dia da semana.
+Uma instituição de ensino tem um sistema de notas que varia entre 0 a 100 pontos. Um aluno é considerado **aprovado** se tiver uma nota igual ou superior a 60 pontos. Um aluno é considerado **top** se tiver uma nota igual ou superior a 90 pontos.
 
-**O programa deve parar quando ler uma data inválida**. 
+O programa deve ler uma quantidade indeterminada de notas, contando o número de notas lidas, o número de alunos **reprovados** e o número de alunos **top**.
 
-Uma data inválida acontece quando dia, mês e ano possuem um valor não-válido.
-
-**Altere o código somente na função *main*. Nas demais funções não é preciso modificar.**
-
-**LEIA atentamente os comentários na função *main* para fazer as alterações**.
+**O programa deve parar quando ler uma nota inválida, ou seja, menor que zero**. 
 
 Confira se o repositório está criado em alguma das organizações GitHub:
 * [https://github.com/p7-m4-ecoi02-2021-1](https://github.com/p7-m4-ecoi02-2021-1)
@@ -16,10 +12,16 @@ Confira se o repositório está criado em alguma das organizações GitHub:
 
 Veja o **Feeback** no link *Pull requests* para aber se a saída do programa está de acordo com o esperado.
 
-## Exemplos de valores
+## Testes
 
-* dia = 12, mes = 5, ano = 2014, Mensagem = Segunda-feira
-* dia = 23, mes = 3, ano = 2007, Mensagem = Sexta-feira
-* dia = 12, mes = 8, ano = 1977, Mensagem = Sexta-feira
-* dia = 11, mes = 5, ano = 1944, Mensagem = Quinta-feira
-* dia = 0, mes = 0, ano = 0, Não é mostrada nenhuma mensagem.
+*ENTRADA 1*) Notas: -1
+SAÍDA:
+Num. notas = 0
+Reprovados = 0
+Tops.      = 0
+
+*ENTRADA 2*) Notas: 60 70 80 90 100 -1
+SAÍDA:
+Num. notas = 5
+Reprovados = 0
+Tops.      = 2
